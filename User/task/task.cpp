@@ -108,7 +108,7 @@ void Task1ms_TIM14_Callback()
     }
     else
     {
-        EoCar.Gimbal.Set_Gimbal_Control_Type(Gimbal_Control_Type_Disable);
+        EoCar.Gimbal.Set_Gimbal_Control_Type(Gimbal_Control_Type_Enable);
         EoCar.Chassis.Set_Chassis_Control_Type(Chassis_Control_Type_DISABLE);
 
         if((EoCar.Remote.Get_Button_One() >> 3) & 0x01)

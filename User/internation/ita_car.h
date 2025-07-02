@@ -32,9 +32,8 @@ public:
     
     Class_FSM FSM_MINIPC_Alive_Protect;
     Class_FSM FSM_N100_Alive_Protect;
-    Class_FSM FSM_Control_Chassis;
+    Class_FSM FSM_Bluetooth_Alive_Protect;
     Class_FSM FSM_Control_Gimbal;
-    
     inline void Set_Actual_Chassis_Yaw(float yaw);
     inline void Set_Voltage(float __voltage);
     inline void Set_Target_Chassis_Yaw(float _Target_Chassis_Yaw);
@@ -44,6 +43,7 @@ public:
     void TIM_Calculate_PeriodElapsedCallback();
     void TIM_Unline_Protect_PeriodElapsedCallback();
     void TIM_N100_Unline_Protect_PeriodElapsedCallback();
+    void TIM_Bluetooth_Unline_Protect_PeriodElapsedCallback();
     void Control_Chassis();
     void Control_Gimbal();
 protected:

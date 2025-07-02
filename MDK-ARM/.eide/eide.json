@@ -183,6 +183,9 @@
           },
           {
             "path": "../User/device/dvc_dwt.cpp"
+          },
+          {
+            "path": "../User/device/dvc_rgb.cpp"
           }
         ],
         "folders": []
@@ -269,11 +272,6 @@
         "folders": []
       },
       {
-        "name": "::CMSIS",
-        "files": [],
-        "folders": []
-      },
-      {
         "name": "Middlewares",
         "files": [],
         "folders": [
@@ -299,6 +297,11 @@
             ]
           }
         ]
+      },
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
       }
     ]
   },

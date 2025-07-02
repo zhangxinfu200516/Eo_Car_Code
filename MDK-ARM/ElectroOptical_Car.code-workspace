@@ -6,7 +6,7 @@
     ],
     "settings": {
         "files.associations": {
-            "limits": "cpp"
+            "initializer_list": "cpp"
         }
     },
     "extensions": {}

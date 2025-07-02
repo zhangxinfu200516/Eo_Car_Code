@@ -981,6 +981,11 @@
               <FileType>8</FileType>
               <FilePath>..\User\device\dvc_dwt.cpp</FilePath>
             </File>
+            <File>
+              <FileName>dvc_rgb.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\device\dvc_rgb.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

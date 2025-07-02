@@ -39,7 +39,7 @@ protected:
     Enum_Gimbal_Control_Type Gimbal_Control_Type = Gimbal_Control_Type_Disable; 
     float Yaw_Lk_Angle;
     //舵机坐标系下角度
-    float Target_Pitch = 75.0f; 
+    float Target_Pitch = Pitch_Zero_Pos; 
     float Target_Yaw = Yaw_Zero_Pos;
     const float Target_Pitch_Speed = 250.0f;
     const float Target_Yaw_Speed = 250.0f;

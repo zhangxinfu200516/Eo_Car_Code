@@ -43,6 +43,7 @@
 "electrooptical_car\dvc_minipc.o"
 "electrooptical_car\dvc_oled.o"
 "electrooptical_car\dvc_dwt.o"
+"electrooptical_car\dvc_rgb.o"
 "electrooptical_car\alg_pid.o"
 "electrooptical_car\alg_fsm.o"
 "electrooptical_car\alg.slope.o"
